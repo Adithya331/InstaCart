@@ -1,0 +1,30 @@
+
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.content .left{
+    display: flex;
+    flex-direction: column;  
+    /* align-items: center;
+    justify-content: center; */
+    flex-grow: 1;
+    font-size: large;
+    gap: 1rem;
+    padding: 4rem;  
+    margin-left: 5rem;
+}
+
+.content .left p{
+    width: 20rem; 
+}
+
+.content .right img{
+    flex-grow: 1;
+    height: 35rem;
+}
+
+
+
